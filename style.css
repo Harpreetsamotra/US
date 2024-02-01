@@ -181,19 +181,19 @@ body {
   border-top-right-radius: 100%;
 }
 .tab-style1 li:nth-child(1).active ~ .follow {
-  left: 12px;
+  left: 320px;
 }
 .tab-style1 li:nth-child(2).active ~ .follow {
-  left: 75px;
+  left: 385px;
 }
 .tab-style1 li:nth-child(3).active ~ .follow {
-  left: 140px;
+  left: 450px;
 }
 .tab-style1 li:nth-child(4).active ~ .follow {
-  left: 205px;
+  left: 515px;
 }
 .tab-style1 li:nth-child(5).active ~ .follow {
-  left: 270px;
+  left: 580px;
 }
 .tab-style1 .active {
   z-index: 100;
