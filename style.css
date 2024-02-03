@@ -13,10 +13,12 @@
   --clay-fg-color: #444;
 }
 
+  
 body {
 
   font-size: 10px;
   font-family: "Roboto", sans-serif;
+  
 }
 
 .flex-center {
@@ -180,6 +182,9 @@ body {
   right: unset;
   border-top-right-radius: 100%;
 }
+
+@media screen and (max-width: 1000px)  {
+
 .tab-style1 li:nth-child(1).active ~ .follow {
   left: 320px;
 }
@@ -195,6 +200,27 @@ body {
 .tab-style1 li:nth-child(5).active ~ .follow {
   left: 580px;
 }
+}
+
+@media screen and (min-width: 1000px)  {
+
+  .tab-style1 li:nth-child(1).active ~ .follow {
+    left: 608px;
+  }
+  .tab-style1 li:nth-child(2).active ~ .follow {
+    left: 673px;
+  }
+  .tab-style1 li:nth-child(3).active ~ .follow {
+    left: 738px;
+  }
+  .tab-style1 li:nth-child(4).active ~ .follow {
+    left: 803px;
+  }
+  .tab-style1 li:nth-child(5).active ~ .follow {
+    left: 868px;
+  }
+  }
+
 .tab-style1 .active {
   z-index: 100;
   width: 60px;
