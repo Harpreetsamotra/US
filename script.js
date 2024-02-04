@@ -131,5 +131,5 @@ mainSlider.controller.control = navSlider;
 navSlider.controller.control = mainSlider;
 
 document.getElementById("home_redirect").onclick=function(){
-  location.href="index.html"
+  location.href="Index.html"
 }
