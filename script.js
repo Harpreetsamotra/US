@@ -129,3 +129,7 @@ let navSlider = new Swiper(navSliderSelector, navSliderOptions);
 // Matching sliders
 mainSlider.controller.control = navSlider;
 navSlider.controller.control = mainSlider;
+
+document.getElementById("home_redirect").onclick=function(){
+  location.href="index.html"
+}

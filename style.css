@@ -48,36 +48,36 @@ body {
   --outset-shadow: rgba(247, 167, 103, 0.45);
   --inset-shadow: rgba(149, 62, 8, 0.45);
   --clay-box-shadow: rgba(211, 69, 20, 0.4);
-  --clay-background-color: #d34514;
+  --clay-background-color: #c8fd4d;
   --clay-fg-color: #f1f2f3;
   color: #690c0c;
 }
 .products-style {
-  --app-content-background-color: #d36e5a;
+  --app-content-background-color: #c8fd4d;
 }
 
 .services.active {
   --outset-shadow: rgba(255, 159, 40, 0.45);
   --inset-shadow: rgba(88, 54, 13, 0.45);
   --clay-box-shadow: rgba(88, 54, 13, 0.4);
-  --clay-background-color: #ed9426;
+  --clay-background-color: #e8c79f;
   --clay-fg-color: #f1f2f3;
   color: #cf5c0f;
 }
 .services-style {
-  --app-content-background-color: #ed9426;
+  --app-content-background-color: #e8c79f;
 }
 
 .about.active {
   --outset-shadow: rgba(93, 255, 85, 0.45);
   --inset-shadow: rgba(28, 78, 26, 0.45);
   --clay-box-shadow: rgba(28, 78, 26, 0.4);
-  --clay-background-color: #4dd146;
+  --clay-background-color: #aeecaa;
   --clay-fg-color: #f1f2f3;
   color: #4dd146;
 }
 .about-style {
-  --app-content-background-color: #4dd146;
+  --app-content-background-color: #aeecaa;
 }
 
 .help.active {
@@ -87,6 +87,7 @@ body {
   --clay-background-color: #a3a3a3;
   --clay-fg-color: #f1f2f3;
   color: #783896;
+  
 }
 .help-style {
   --app-content-background-color: #a3a3a3;
@@ -350,3 +351,19 @@ body {
   transform: translateX(-50px);
 }
 
+.nav-title{
+
+  font-size:30px;
+  padding: 20px;
+
+  font-family:serif;
+}
+
+.nav-image{
+
+  height: 90%;
+}
+
+.anchor-text{
+  color:chocolate;
+}
