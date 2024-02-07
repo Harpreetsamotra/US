@@ -130,9 +130,8 @@ let navSlider = new Swiper(navSliderSelector, navSliderOptions);
 mainSlider.controller.control = navSlider;
 navSlider.controller.control = mainSlider;
 
-document.getElementById("home_redirect").onclick=function(){
-  window.location.href="Index.html"
-}
+
+
 
 //Countdown
 
@@ -228,3 +227,14 @@ function formatTime(time) {
 
 updateAllCountdowns();
 setInterval(updateAllCountdowns, 1000);
+
+
+/* 
+const btn = document.getElementById('side-menu');
+
+btn.addEventListener('click', () => {
+  const box = document.getElementsByClassName('swiper-wrapper'&&'')[0];
+
+  // 👇️ removes the element from the DOM
+   box.style.display = 'none';
+});*/
