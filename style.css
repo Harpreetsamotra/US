@@ -594,21 +594,9 @@ body {
   }
 }
 
-@media screen and (max-width: 800px) {
+
+
   
-
-.container{
-  display:none;
-}
-}
-
-@media screen and (min-width: 800px) {
-  
-
-  .header{
-    display:none;
-  }
-  }
    
 
 
@@ -743,8 +731,15 @@ a{
   
 }
 
-.nav-margin-mob{
 
-  
+.nav-link{
+
+  font-size: large;
+  margin-left: 20px;
 }
+.nav-margin{
 
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 30px;
+}

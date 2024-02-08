@@ -6,6 +6,8 @@
   </title>
   
   <link rel="icon" href="Images/icon.png" type="image/png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'><link rel="stylesheet" href="./style.css">
 
@@ -14,55 +16,24 @@
 
 
 <!--Mobile nav bar-->
-<div class="mobile_nav">
-  <!-- Navigation bar -->
-  <header class="header">
-      <!-- Logo -->
-      <a href="Index.html"  class="logo" ><p class="nav-margin-mob"><img src="Images/icon.png" class="nav-image">  Our Journey</p></a>
-      <!-- Hamburger icon -->
-      <input class="side-menu" type="checkbox" id="side-menu"/>
-      <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
-      <!-- Menu -->
-      <nav class="nav">
-          <ul class="menu">
-              <li><a href="#">Gallery</a></li>
-              <li><a href="#">Blog</a> </li>
-              <li><a href="#">About</a></li>
-          </ul>
-      </nav>
-  </header>
-  
-</div>
-
-
-  <div class="container">
-   
-    <div class="tabbar tab-style1">
-      <div class="nav-title">
-      <a href="Index.html" class="anchor-text" style="text-decoration:none">
+<nav class="navbar navbar-expand-lg navbar-light"  style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="Index.html" class="anchor-text" style="text-decoration:none">
       <p class="nav-margin"><img src="Images/icon.png" class="nav-image">  Our Journey</p></a>
-    </div>
-      <ul class="flex-center">
-        
-        <li id="home_redirect" class="home active"data-where="home"><span class="material-icons-outlined">
-            home
-          </span></li>
-        <li class="products" data-where="products"><span class="material-icons-outlined">
-            shopping_bag
-          </span></li>
-        <li class="services" data-where="services"><span class="material-icons-outlined">
-            plumbing
-          </span></li>
-        <li class="about" data-where="about"><span class="material-icons-outlined">
-            business
-          </span></li>
-        <li class="help" data-where="help"><span class="material-icons-outlined">
-            help_outline
-          </span></li>
-        <li class="follow"> </li>
-      </ul>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active nav-link" aria-current="page" href="Index.html">Home</a>
+        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#">Pricing</a>
+       
+      </div>
     </div>
   </div>
+</nav>
+
 
 
 <!-- partial:index.partial.html -->
