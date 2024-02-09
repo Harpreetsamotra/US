@@ -367,7 +367,9 @@ body {
 }
 
 .main_div_countdown {
- background:rgba(255, 255, 255, 0.1) url("Images/IMG_2858.JPG");
+ background:url("Images/IMG_4528_new.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
   width: 500px;
   align-items: center;
   display: flex;
@@ -771,4 +773,15 @@ a{
   width: 100px;
 }
 
+}
+
+.countdown__label{
+  color:black;
+  font-size: large;
+  text-align: center;
+  background-color:var(--background-count)
+;
+height: 40px;
+width: 10px;
+padding: 10px;
 }
