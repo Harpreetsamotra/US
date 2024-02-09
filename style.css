@@ -739,7 +739,32 @@ a{
 }
 .nav-margin{
 
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   text-align: center;
   font-size: 30px;
+}
+
+@media (max-width:70rem){
+  
+
+  .nav-link{
+
+  font-size: 200px;
+  padding: 50px;
+}
+
+.navbar-nav{
+  height: 100vh;
+  text-align: center;
+ 
+}
+.nav-margin{
+  font-size: 100px;
+}
+
+.nav-image,.navbar-toggler-icon{
+  height: 100px;
+  width: 100px;
+}
+
 }
