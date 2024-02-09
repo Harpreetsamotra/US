@@ -746,6 +746,10 @@ a{
 
 @media (max-width:70rem){
   
+  .main_div_countdown{
+    min-height: 20vh;
+    margin-top: 950px;
+  }
 
   .nav-link{
 
