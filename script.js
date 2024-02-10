@@ -229,6 +229,10 @@ updateAllCountdowns();
 setInterval(updateAllCountdowns, 1000);
 
 
+AOS.init({
+  duration: 1000
+});
+
 /* 
 const btn = document.getElementById('side-menu');
 
