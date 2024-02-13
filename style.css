@@ -761,10 +761,11 @@ a{
   
   .main_div_countdown{
     min-height: 15vh;
-    width: 50%;
-    margin-left: 60px;
+    width: 48%;
+    margin-left: 20px;
     margin-top: 80px;
   }
+
 .gallary_title{
 
   margin-top: 1000px;
@@ -884,4 +885,30 @@ div.desc {
 .nav-margin{
   font-family: 'Hachi Maru Pop', cursive;
 
+}
+
+@media (max-width:70rem){
+  
+  div.abc{
+  
+ 
+    width: 435px;
+    margin-left: 508px;
+   
+  }
+}
+
+  .abc{
+
+  
+position: absolute;
+
+font-family: 'Caveat', cursive;
+  width: 800px;
+  margin-left: 700px; 
+  height: 400px;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 20px;
+  
 }
