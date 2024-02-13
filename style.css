@@ -889,6 +889,11 @@ div.desc {
 
 @media (max-width:70rem){
   
+
+p.text-countdown{
+  font-size: 16px;
+}
+
   div.abc{
   
  
