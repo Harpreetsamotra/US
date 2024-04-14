@@ -150,7 +150,7 @@ const secondsElCurr = secondsEl.getElementsByClassName("curr");
 const secondsElNext = secondsEl.getElementsByClassName("next");
 
 const newYear = new Date().getFullYear() + 1;
-let newYearTime = new Date("2023-04-14 18:30:00");
+let newYearTime = new Date("2023-04-13 18:30:00");
 newYearTime = new Date(
   newYearTime.getTime() - new Date().getTimezoneOffset() * 60 * 1000
 );
